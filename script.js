@@ -130,7 +130,7 @@ saveBtn.addEventListener("click", () => {
         }
     }
 
-    const dataUrl = exportCanvas.toDataURL("image/jpg");
+    const dataUrl = exportCanvas.toDataURL("image/jpeg",0.9);
     const isMobile = /Android|iPhone|iPad|iPod|Opera Mini|IEMobile/i.test(navigator.userAgent);
 
     if (isMobile) {
