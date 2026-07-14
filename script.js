@@ -7,8 +7,8 @@ const eraserBtn = document.getElementById("eraserBtn");
 const clearBtn = document.getElementById("clearBtn");
 const saveBtn = document.getElementById("saveBtn");
 
-const GRID_SIZE = 128;
-const CANVAS_RESOLUTION = 4096;
+const GRID_SIZE = 64;
+const CANVAS_RESOLUTION = 1024;
 const CELL_SIZE = CANVAS_RESOLUTION / GRID_SIZE;
 
 let drawing = false;
